@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(160, 157, 153);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 5em;
+  margin-top: 2em;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 2px;
+  color: rgb(5, 5, 39);
+  /* margin-top: 1em; */
+}
+
+a:hover {
+  color: #0d65ca;
+}
+header {
+  margin-top: 3em;
+  text-align: center;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Inika", serif;
+  margin-top: 1em;
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+.stack-description {
+  text-align: center;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+main {
+  margin-top: 3em;
+}
+
+content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+
+.works {
+  margin-top: 1.5em;
+  line-height: 1.5;
+}
+
+.stacks,
+.stacks > p {
+  margin-top: 0.5em;
+  font-family: "Poppins", sans-serif;
+  color: blue;
+}
+
+.info {
+  /* max-width: 60%; */
+  width: 400px;
+  height: 300px;
+  /* position: absolute; */
+  background-color: rgb(105, 103, 100);
+  border: 2px solid white;
+  padding: 1em;
+  margin-top: 5em;
+  margin-left: 4em;
+}
+
+.info-details {
+  font-size: 2em;
+  font-family: "Inika", serif;
+  color: #362319;
+}
+
+.contact-info {
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 2rem;
+  color: #112136;
+  /* margin-left: 1em; */
+}
+
+.image {
+  position: relative;
+  left: 18em;
+  bottom: 1em;
+}
