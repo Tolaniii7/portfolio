@@ -94,13 +94,13 @@ h2 {
   background-color: rgb(119, 117, 117);
   border: 2px solid #fff;
   margin-top: 5em;
-  margin-left: 4em;
+  margin-left: 2.5em;
   border-radius: 1em;
   padding: 2em;
 }
 
 .info-details {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: "Inika", serif;
   color: #362319;
 }
@@ -108,7 +108,7 @@ h2 {
 .contact-info {
   margin-top: 1em;
   padding: 1em;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #112136;
 
   /* margin-left: 1em; */
