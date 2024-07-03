@@ -22,8 +22,8 @@ function displayCurrentTime() {
   const seconds = now.getUTCSeconds().toString();
 
   const formartedTime = `${hours}:${min}:${seconds}`;
-  currentTime.textContent = formartedTime;
-  currentDay.textContent = dayName;
+  currentTime.textContent = `⌚${formartedTime}`;
+  currentDay.textContent = `📆${dayName}`;
 }
 
 setInterval(displayCurrentTime, 1000);

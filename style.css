@@ -90,19 +90,17 @@ h2 {
 }
 
 .info {
-  /* max-width: 60%; */
-  width: 400px;
-  height: 300px;
-  /* position: absolute; */
-  background-color: rgb(105, 103, 100);
-  border: 2px solid white;
-  padding: 1em;
+  max-width: 350px;
+  background-color: rgb(119, 117, 117);
+  border: 2px solid #fff;
   margin-top: 5em;
   margin-left: 4em;
+  border-radius: 1em;
+  padding: 2em;
 }
 
 .info-details {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Inika", serif;
   color: #362319;
 }
@@ -110,13 +108,19 @@ h2 {
 .contact-info {
   margin-top: 1em;
   padding: 1em;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #112136;
+
   /* margin-left: 1em; */
 }
 
 .image {
   position: relative;
-  left: 18em;
-  bottom: 1em;
+  left: 14em;
+  top: 1em;
+  /* bottom: 1em; */
+}
+
+.link {
+  margin-top: 2em;
 }
